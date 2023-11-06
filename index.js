@@ -1,3 +1,12 @@
-var message = 'raja'
-setTimeout(message, 5000)
-console.log(message);
+const myTime = setTimeout(message, 2000)
+
+function message() {
+    console.log("Hiii")
+}
+
+function timeOut() {
+    clearTimeout(myTime)
+}
+
+message()
+timeOut()
