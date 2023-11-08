@@ -1,3 +1,5 @@
+// Functions 
+
 var name = "raja"
 var age = 24
 var gender = "male"
